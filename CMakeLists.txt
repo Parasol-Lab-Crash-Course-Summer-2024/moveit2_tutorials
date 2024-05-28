@@ -20,7 +20,7 @@ set(THIS_PACKAGE_INCLUDE_DEPENDS
   moveit_ros_planning
   moveit_ros_planning_interface
   moveit_servo
-  moveit_task_constructor_core
+  # moveit_task_constructor_core
   moveit_visual_tools
   pluginlib
   rclcpp
@@ -64,13 +64,13 @@ add_subdirectory(doc/examples/realtime_servo)
 add_subdirectory(doc/examples/robot_model_and_robot_state)
 add_subdirectory(doc/how_to_guides/benchmarking)
 add_subdirectory(doc/how_to_guides/isaac_panda)
-add_subdirectory(doc/how_to_guides/kinematics_cost_function)
-add_subdirectory(doc/how_to_guides/parallel_planning)
+# add_subdirectory(doc/how_to_guides/kinematics_cost_function)
+# add_subdirectory(doc/how_to_guides/parallel_planning)
 add_subdirectory(doc/how_to_guides/chomp_planner)
-add_subdirectory(doc/how_to_guides/persistent_scenes_and_states)
-add_subdirectory(doc/how_to_guides/pilz_industrial_motion_planner)
-add_subdirectory(doc/how_to_guides/using_ompl_constrained_planning)
-add_subdirectory(doc/tutorials/pick_and_place_with_moveit_task_constructor)
+# add_subdirectory(doc/how_to_guides/persistent_scenes_and_states)
+# add_subdirectory(doc/how_to_guides/pilz_industrial_motion_planner)
+# add_subdirectory(doc/how_to_guides/using_ompl_constrained_planning)
+# add_subdirectory(doc/tutorials/pick_and_place_with_moveit_task_constructor)
 add_subdirectory(doc/tutorials/quickstart_in_rviz)
 add_subdirectory(doc/how_to_guides/pick_ik)
 
